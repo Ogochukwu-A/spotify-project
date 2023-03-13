@@ -3,8 +3,8 @@ import axios from "axios";
 
 const context = createContext();
 const MyContextApi = ({ children }) => {
-  const CLIENT_ID = "9cdd827471d54c908ae7d8dae8fc0da9";
-  const REDIRECT_URI = "http://127.0.0.1:5174/";
+  const CLIENT_ID = "2389929316e648aeb0f80173d73b2225";
+  const REDIRECT_URI = "http://localhost:5173/";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
   const [token, setToken] = useState("");
